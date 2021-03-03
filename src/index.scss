@@ -1,0 +1,41 @@
+$fontWeights: (
+  'thin': 100,
+  'xLight': 200,
+  'light': 300,
+  'regular': 400,
+  'medium': 500,
+  'bold': 700,
+  'xBold': 800,
+  'xXBold': 900,
+);
+
+:root {
+  --thin: 100;
+  --xLight: 200;
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --bold: 700;
+  --xBold: 800;
+  --xXBold: 900;
+  --primaryFont: 'Japanese 3017';
+  --secondaryFont: 'Gang of 3';
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  height: 100vh;
+}
+
+body {
+  font-kerning: normal;
+  margin: 0;
+  padding: 0;
+  font-display: swap;
+}
